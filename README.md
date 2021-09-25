@@ -7,7 +7,7 @@ The whole program is only tested on Windows. However, with GPIB drivers installe
 The configuration procedure should be done on a computer that has Internet access.
 
 1. Make sure that the following are installed on your your computer already:
-   1. _Removed. An embeddable version of Python 3 will be downloaded by the script._~~Python 3: I've only tested it with [Python 3.8.10](https://www.python.org/downloads/release/python-3810/). It should work with newer versions of Python as well.~~
+   1. _Removed. An embeddable version of Python 3 will be downloaded by the script._ ~~Python 3: I've only tested it with [Python 3.8.10](https://www.python.org/downloads/release/python-3810/). It should work with newer versions of Python as well.~~
         - ~~Test it with `python --version` in your command line. Make sure it is Python 3.~~
    1. [Node.js](https://nodejs.org/en/download/): Tested on Node.js 13 and 14. It should work with newer versions as well.
         - Test it with `node --version` in your command line. Make sure it is newer than `13.x.x`.
