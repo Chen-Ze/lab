@@ -24,7 +24,7 @@ Make sure that the following are installed on your your computer already:
 - [Git](https://git-scm.com/).
         - Test it with `git --version` in your command line. No specific version requirement here.
 - [Chrome](https://www.google.com/intl/en_sg/chrome/): The graphical user interface should work in Firefox or Safari as well. I have only tested it on Chrome, though.
-      - Technically speaking, graphical user interface is not necessary on the computer connected to the instruments. The computer only hosts the web service, which is accessible by other computers in the same LAN.
+     - Technically speaking, graphical user interface is not necessary on the computer connected to the instruments. The computer only hosts the web service, which is accessible by other computers in the same LAN.
 - GPIB drivers: It is provided by National Instrument on Windows. There ar e counterparts on Mac and Linux, although I have not tested.
 
 #### Prerequisites Checking
