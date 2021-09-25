@@ -6,7 +6,9 @@ The whole program is only tested on Windows. However, with GPIB drivers installe
 
 The configuration procedure should be done on a computer that has Internet access.
 
-##### Prerequisites
+### Installation
+
+#### Prerequisites
 
 Make sure that the following are installed on your your computer already:
 1. _Removed. An embeddable version of Python 3 will be downloaded by the script._ ~~Python 3: I've only tested it with [Python 3.8.10](https://www.python.org/downloads/release/python-3810/). It should work with newer versions of Python as well.~~
@@ -21,21 +23,21 @@ Make sure that the following are installed on your your computer already:
       - Technically speaking, graphical user interface is not necessary on the computer connected to the instruments. The computer only hosts the web service, which is accessible by other computers in the same LAN.
 1. GPIB drivers: It is provided by National Instrument on Windows. There ar e counterparts on Mac and Linux, although I have not tested.
 
-##### Prerequisites Checking
+#### Prerequisites Checking
 
 (On Windows) Double-click `preinstall-check-windows.bat`. The script will check the above dependencies except GPIB drivers. On newer versions of Windows 10, the results are printed in color where green marks success and red marks failure. However, colors in command line are not available on older versions of Windows. In any case, pay attention to output of the pattern `****** ERROR: <dependency> not found ******`.
 
-##### Installation
+#### Installation
 
 (On Windows) Double-click `install-windows.bat`. It may take 10~20 mins for the installation to complete.
 
-## Updating
+### Updating
 
 The updating procedure should be done on a computer that has Internet access.
 
 1. (On Windows) Double-click `update-windows.bat`.
 
-## Starting
+### Starting
 
 Starting the program requires no Internet connection.
 
