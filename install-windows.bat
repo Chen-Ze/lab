@@ -1,7 +1,7 @@
 curl -o python3.zip https://www.python.org/ftp/python/3.8.10/python-3.8.10-embed-amd64.zip
 
 git clone https://github.com/npocmaka/batch.scripts
-.\batch.scripts\hybrids\jscript\zipjs.bat -source %cd\python3 -destination python3.zip
+call .\batch.scripts\hybrids\jscript\zipjs.bat -source %cd\python3 -destination python3.zip
 
 git clone https://github.com/Chen-Ze/python-visa-server
 cd python-visa-server
