@@ -18,7 +18,7 @@ The configuration procedure should be done on a computer that has Internet acces
    1. [Chrome](https://www.google.com/intl/en_sg/chrome/): The graphical user interface should work in Firefox or Safari as well. I have only tested it on Chrome, though.
       - Technically speaking, graphical user interface is not necessary on the computer connected to the instruments. The computer only hosts the web service, which is accessible by other computers in the same LAN.
    1. GPIB drivers: It is provided by National Instrument on Windows. There ar e counterparts on Mac and Linux, although I have not tested.
-1. (On Windows) Double-click `preinstall-check-windows.bat`. The script will check the above dependencies except GPIB drivers. On newer versions of Windows 10, the results are printed in color where green marks success and red marks failure. However, colors in command line are not available on older versions of Windows. In any case, pay attension to output of the pattern `****** ERROR: <dependency> not found ******`.
+1. (On Windows) Double-click `preinstall-check-windows.bat`. The script will check the above dependencies except GPIB drivers. On newer versions of Windows 10, the results are printed in color where green marks success and red marks failure. However, colors in command line are not available on older versions of Windows. In any case, pay attention to output of the pattern `****** ERROR: <dependency> not found ******`.
 1. (On Windows) Double-click `install-windows.bat`.
 
 ## Updating
