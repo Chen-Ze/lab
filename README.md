@@ -55,8 +55,6 @@ Starting the program requires no Internet connection.
      3. In the web browser (ideally Chrome) of the remote computer, go to the IP address of the server.
      4. **Warning:** To access LightField, you may have to connect using a remote desktop.
 
-## Starting Experiments
-
 ## Doing Experiments
 
 ### Experiment from Scratch
