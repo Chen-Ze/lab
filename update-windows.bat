@@ -8,13 +8,14 @@ cd ..
 
 cd lab-server
 git pull
-cd ..
 call npm i
 call npm run build
+cd ..
 
 cd lab-client
 git pull
 call npm i
 call npm run build
+cd ..
 
 pause
