@@ -12,3 +12,5 @@ cd lab-client
 git pull
 npm i
 npm run build
+
+pause

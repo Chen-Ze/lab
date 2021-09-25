@@ -11,3 +11,5 @@ cd lab-client
 npm i
 npm run build
 cd ..
+
+pause
