@@ -4,8 +4,13 @@ git clone https://github.com/npocmaka/batch.scripts
 call .\batch.scripts\hybrids\jscript\zipjs.bat -source %cd%\python3 -destination %cd%\python3.zip
 
 git clone https://github.com/Chen-Ze/python-visa-server
-cd python-visa-server
-pip install -r requirements.txt
+cd python3
+echo python38.zip> python38._pth
+echo .>> python38._pth
+echo import site>> python38._pth
+curl -o get-pip.py https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+.\Scripts\pip install -r ..\python-visa-server\requirements.txt
 cd ..
 
 git clone https://github.com/Chen-Ze/lab-server
