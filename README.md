@@ -8,7 +8,7 @@ The configuration procedure should be done on a computer that has Internet acces
 
 Before carry on the following procedures, you should clone (or download) this repository by either
 - `git clone https://github.com/Chen-Ze/lab`, or
-- downloading by clicking _Code_ > _Download ZIP_ on this page (assuming you are reading this instruction on GitHub).
+- downloading by clicking _Code_ > _Download ZIP_ on this page (assuming you are reading this instruction on GitHub), and unzipping the downloaded file.
 
 ### Installation
 
