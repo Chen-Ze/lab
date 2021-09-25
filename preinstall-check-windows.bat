@@ -29,7 +29,7 @@ if %ERRORLEVEL% == 0 (
     echo ^<ESC^>[0m [0mReset[0m
 )
 
-start "" "chrome" --kiosk --fullscreen --incognito "https://www.google.com"
+%SystemRoot%\System32\reg.exe query "HKLM\Software\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe"
 if %ERRORLEVEL% == 0 (
     echo ^<ESC^>[32m [32m****** chrome found ******[0m
     echo ^<ESC^>[0m [0mReset[0m
