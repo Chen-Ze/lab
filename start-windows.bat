@@ -1,5 +1,5 @@
 cd python-visa-server
-start python http_control.py
+start ..\python3\python http_control.py
 cd ..
 
 cd lab-server
