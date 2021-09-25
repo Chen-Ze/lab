@@ -36,7 +36,7 @@ Make sure that the following are installed on your your computer already:
 
 ### Updating
 
-- The updating procedure should be done on a computer that has Internet access.
+The updating procedure should be done on a computer that has Internet access.
 
 1. (On Windows) Double-click `update-windows.bat`.
 
