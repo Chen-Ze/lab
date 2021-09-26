@@ -50,7 +50,7 @@ Starting the program requires no Internet connection.
 
 1. (On Windows) Double-click `start-windows.bat`.
      - This opens two command line windows, as well as Chrome.
-     - If the two command line windows are already open, you may
+     - If the two command line windows are already open before doing this step, you may
           - confirm first that there is currently no experiments going on, and
           - close the two command line windows before double-clicking `start-windows.bat`.
 1. (_Optional_) Access the graphical interface using a remote computer:
