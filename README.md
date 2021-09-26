@@ -114,7 +114,7 @@ Starting the program requires no Internet connection.
    - Generally, this will not change the parameters already sent to the instruments.
 2. If the experiment does not start after clicking the start button, you may close (or kill) the two command line windows opened after clicking on `start-windows.bat` as well as the webpage, and then reopen them (by clicking `start-windows.bat` again).
      - You may want to save your experiment sequence before closing the program, so that the sequence could be imported later.
-3. Contact the author if you have any problem.
+3. Contact the author if you have any problem. You may create an issue or send an email.
 
 ## Contact Me
 
