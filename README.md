@@ -16,13 +16,13 @@ Before carry on the following procedures, you should clone (or download) this re
 
 Make sure that the following are installed on your your computer already:
 - _Removed. An embeddable version of Python 3 will be downloaded by the script._ ~~Python 3: I've only tested it with [Python 3.8.10](https://www.python.org/downloads/release/python-3810/). It should work with newer versions of Python as well.~~
-        - ~~Test it with `python --version` in your command line. Make sure it is Python 3.~~
+     - ~~Test it with `python --version` in your command line. Make sure it is Python 3.~~
 - [Node.js](https://nodejs.org/en/download/): Tested on Node.js 13 and 14. It should work with newer versions as well.
-        - Test it with `node --version` in your command line. Make sure it is newer than `13.x.x`.
+     - Test it with `node --version` in your command line. Make sure it is newer than `13.x.x`.
 - Curl: it's already there on most unix-like systems, as well as on Windows 10 (after 17063). On older windows systems, `curl.exe` may be found [here](https://curl.se/windows/). Make sure that you add `curl.exe` in `PATH` after downloading.
-        - Test it with `curl --version` in your command line.
+     - Test it with `curl --version` in your command line.
 - [Git](https://git-scm.com/).
-        - Test it with `git --version` in your command line. No specific version requirement here.
+     - Test it with `git --version` in your command line. No specific version requirement here.
 - [Chrome](https://www.google.com/intl/en_sg/chrome/): The graphical user interface should work in Firefox or Safari as well. I have only tested it on Chrome, though.
      - Technically speaking, graphical user interface is not necessary on the computer connected to the instruments. The computer only hosts the web service, which is accessible by other computers in the same LAN.
 - GPIB drivers: It is provided by National Instrument on Windows. There ar e counterparts on Mac and Linux, although I have not tested.
