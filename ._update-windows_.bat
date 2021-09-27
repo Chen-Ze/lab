@@ -1,6 +1,6 @@
 cd python-visa-server
 git pull
-..\python3\Scripts\pip install --update -e .
+..\python3\Scripts\pip install --upgrade -e .
 cd ..
 
 cd lab-server
